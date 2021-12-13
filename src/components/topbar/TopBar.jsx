@@ -1,6 +1,7 @@
 import React from "react";
 import "./TopBar.css";
 import { NotificationsNone, Language, Settings } from "@material-ui/icons/";
+import image from "../../logo.png";
 
 const TopBar = () => {
   return (
@@ -22,6 +23,7 @@ const TopBar = () => {
             <Settings />
             <span className="topIconBag">2</span>
           </div>
+          <img src={image} alt="" className="topAvatar" />
         </div>
       </div>
     </div>
